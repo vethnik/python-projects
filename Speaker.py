@@ -10,7 +10,7 @@ while True:
     if x=='exit':
         print("Exiting......")
         engine.say("Exiting")
-        engine.runAndWait()
+        engine.runAndWait
         break
     engine.say(x)
     engine.runAndWait()
